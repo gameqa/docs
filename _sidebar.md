@@ -21,10 +21,10 @@
 
 * Setting Up the APP
     * [Introduction](/APP_Setup/introduction.md)
-    * [Getting Xcode](/APP_Setup)
-    * [Getting Android Studio](/APP_Setup)
-    * [Connecting to API](/APP_Setup)
-    * [Running locally](/APP_Setup)
-    * [Beta Testing (testflight)](/APP_Setup)
-    * [Release to App Store](/APP_Setup)
+    * [Getting Xcode](/APP_Setup/get_xcode.md)
+    * [Getting Android Studio](/APP_Setup/get_android_studio.md)
+    * [Connecting to API](/APP_Setup/connect_to_api.md)
+    * [Running locally](/APP_Setup/run_local.md)
+    * [Beta Testing (testflight)](/APP_Setup/beta_testing.md)
+    * [Release to App Store](/APP_Setup/release_to_app_store.md)
 
