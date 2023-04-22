@@ -3,7 +3,7 @@
 * Getting Started
     * [Introduction](/)
 
-* Localize
+* Translating the Codebase
     * [Clone Repo](/Localize/clone_repo.md)
     * [Translate](/Localize/translate.md)
     * [Oreos](/Localize/oreos.md)
