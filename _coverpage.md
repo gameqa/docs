@@ -1,7 +1,7 @@
 
 ![logo](_media/icon.png)
 
-# GameQA <small>Localization</small>
+# GameQA <small>**Localization**</small>
 
 > Leveling the NLP Playing field for all languages.
 
