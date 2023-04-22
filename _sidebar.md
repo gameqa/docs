@@ -4,7 +4,7 @@
     * [Introduction](/)
 
 * Translating the Codebase
-    * [Clone Repo](/Localize/clone_repo.md)
+    * [Clone Repository](/Localize/clone_repo.md)
     * [Translate](/Localize/translate.md)
     * [Oreos](/Localize/oreos.md)
 

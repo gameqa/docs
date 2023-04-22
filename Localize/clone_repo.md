@@ -1,6 +1,6 @@
-# Clone Repo
+# Clone Repository
 
-GameQA consists of multiple repositories of code. To make this simpler for you, we've created a single umbrella repo called [cadia-lvl/GameQA](https://www.github.com/cadia-lvl/GameQA). 
+GameQA consists of multiple repositories of code. To make this simpler for you, we've created a single umbrella repo: [cadia-lvl/GameQA](https://www.github.com/cadia-lvl/GameQA). 
 
 To get started, clone the repository by running the following command in your terminal: 
 ```

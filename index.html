@@ -13,6 +13,11 @@
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" /> -->
 </head>
 <body>
+  <!-- <nav style="top:0; position:fixed"> -->
+  <nav style="">
+    <a href="www.google.com">GameQA Paper</a>
+    <a href="www.google.com">Download Dataset</a>
+  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -24,7 +29,8 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      // loadNavbar: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
