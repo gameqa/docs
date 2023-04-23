@@ -2,6 +2,23 @@
 
 > Welcome to the GameQA Localization Portal! Our goal is to empower low-resource languages by enabling the creation of diverse QA datasets. GameQA is an open-source, crowd-sourcing platform that gamifies data collection for these languages. This portal simplifies the localization process, helping you adapt GameQA to your needs and support linguistic diversity. Join us in democratizing knowledge and bridging the global linguistic gap.
 
+
+<div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-6">
+                <p style="text-align: center;">
+                <a href="https://www.google.com">GameQA Paper</a>
+            </p>
+            </div>
+            <div class="col-md-6">
+                <p style="text-align: center;">
+                    <a href="https://www.google.com">Download Dataset</a>
+                </p>
+            </div>
+        </div>
+</div>
+
 ## Global Impact
 
 GameQA has (so far) been localized for <b>two</b> languages in <b>two</b> continents. Below is a list of QA datasets gathered with GameQA that has been localized to different regions of the world.
@@ -41,7 +58,7 @@ The localization process for GameQA is designed to be straightforward and effici
                 <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
             </div>
         </div>
-    </div>
+</div>
 
 <hr>
 
