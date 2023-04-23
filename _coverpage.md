@@ -1,7 +1,7 @@
 
 ![logo](_media/icon.png)
 
-# GameQA <small>**Localization**</small>
+# GameQA
 
 > Bridging the global linguistic gap.
 

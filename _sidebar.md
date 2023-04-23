@@ -1,7 +1,8 @@
 <!-- docs/_sidebar.md -->
 
-* Getting Started
-    * [Introduction](/)
+* Home
+    * [GameQA](/)
+    * [Localization](/localization.md)
 
 * Translating the Codebase
     * [Clone Repository](/Localize/clone_repo.md)
