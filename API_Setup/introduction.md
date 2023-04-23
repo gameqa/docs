@@ -1,4 +1,4 @@
-# Setting Up the API
+# Deploying the API
 
 The API is the brain of GameQA. When users are playing the game and contributing data, the API controls the tasks, saves information to a database, communicates with Google, and so on. We recommend setting up the API prior to the app since the app relies so heavily on the API. Doing so will involve setting up a database, REDIS instance, SendGrid account, etc.
 

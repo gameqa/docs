@@ -1,1 +1,1 @@
-# Setting up the App
+# Deploying the App
