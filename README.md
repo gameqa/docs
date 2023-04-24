@@ -1,22 +1,31 @@
 # GameQA
 
-> Welcome to the GameQA Localization Portal! Our goal is to empower low-resource languages by enabling the creation of diverse QA datasets. GameQA is an open-source, crowd-sourcing platform that gamifies data collection for these languages. This portal simplifies the localization process, helping you adapt GameQA to your needs and support linguistic diversity. Join us in democratizing knowledge and bridging the global linguistic gap.
-
-
 <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-md-6">
-                <p style="text-align: center; color:#fff">
-                <a href="https://www.google.com" style="text-decoration: none" class="white-button">GameQA Paper</a>
-            </p>
-            </div>
-            <div class="col-md-6">
-                <p style="text-align: center;">
-                    <a href="https://www.google.com" style="text-decoration: none" class="green-button">Download Dataset</a>
-                </p>
+    <div class="row">
+        <div class="col-md-8">
+            <blockquote>
+                <p>Welcome to the GameQA Localization Portal! Our goal is to empower low-resource languages by enabling the creation of diverse QA datasets. GameQA is an open-source, crowd-sourcing platform that gamifies data collection for these languages. This portal simplifies the localization process, helping you adapt GameQA to your needs and support linguistic diversity. Join us in democratizing knowledge and bridging the global linguistic gap.</p>
+            </blockquote>
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <p style="text-align: center; color:#fff">
+                        <a href="https://www.google.com" style="text-decoration: none" class="white-button">GameQA Paper</a>
+                    </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p style="text-align: center;">
+                            <a href="https://www.google.com" style="text-decoration: none" class="green-button">Download Dataset</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="col-md-2">
+            <img src="_media/frankenstein.png">
+        </div>
+    </div>
 </div>
 
 ## Global Impact

@@ -31,6 +31,7 @@ html {
   
   background-color: none;
   color: var(--theme-color, #42b983) !important;
+  font-weight: 100 !important;
   text-decoration: none;
   border-color: #42b983;
   border-color: var(--theme-color, #42b983);
@@ -66,6 +67,7 @@ html {
   
   background-color: var(--theme-color, #42b983);
   color: #fff !important;
+  font-weight: 100 !important;
   text-decoration: none;
   border-color: #42b983;
   border-color: var(--theme-color, #42b983);
