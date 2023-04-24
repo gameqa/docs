@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "> Welcome to the GameQA Localization Portal! Our goal is to empower low-resource languages by enabling the creation of diverse QA datasets. GameQA is an open-source, crowd-sourcing platform that gamifies data collection for these languages. This portal simplifies the localization process, helping you adapt GameQA to your needs and support linguistic diversity. Join us in democratizing knowledge and bridging the global linguistic gap.",
+  "main": "gendocs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "globby": "^13.1.4",
+    "sitemap": "^7.1.1"
+  }
+}
