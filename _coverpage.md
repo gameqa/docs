@@ -9,9 +9,12 @@
 - Minimum Spend
 - Maximum Output -->
 
+<!-- <img src="/_media/chevron-down-2xs.png"
+     alt="Chevron Down Arrow"
+     class="center"/> -->
+
 [GitHub](https://github.com/cadia-lvl/GameQA)
 [Get Started](#GameQA-Localization)
-
 
 <!-- <div style="height:30px; width:100%; display:flex; justify-content:center; box-sizing:content-box; padding:40px 0">
     <a href="#GameQA-Localization">

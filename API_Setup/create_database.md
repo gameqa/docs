@@ -10,6 +10,10 @@ Here, we will walk you through the steps of creating a MongoDB instance and inte
 You can start by registering for [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register). Signing up is completely free and it offers both free and paid database options.
 
 ## Creating a Database
+🚧 🏗 🔨👷 We're still working on this!
 ## Creating a User
+🚧 🏗 🔨👷 We're still working on this!
 ## Connecting to the API
+🚧 🏗 🔨👷 We're still working on this!
 ## Testing Connection
+🚧 🏗 🔨👷 We're still working on this!
