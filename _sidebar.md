@@ -29,3 +29,6 @@
     * [Beta Testing (testflight)](/APP_Setup/beta_testing.md)
     * [Release to App Store](/APP_Setup/release_to_app_store.md)
 
+* Implementations
+    * [Localized **GameQA** Apps](/implementations/implementation-links.md)
+

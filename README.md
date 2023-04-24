@@ -6,12 +6,17 @@
 <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <p style="text-align: center;">
                 <a href="https://www.google.com">GameQA Paper</a>
             </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-2">
+                <p style="text-align: center;">
+                    |
+                </p>
+            </div>
+            <div class="col-md-5">
                 <p style="text-align: center;">
                     <a href="https://www.google.com">Download Dataset</a>
                 </p>
@@ -73,3 +78,9 @@ Our comprehensive tutorials and thorough documentation make the entire GameQA ex
 ```
 
 <h4><p style="text-align: center;"><a href="/localization.md">Get started here</a></p></h4>
+
+<hr>
+
+## Implementations
+
+We try to maintain an up-to-date list of **GameQA** implementations across languages on this website as well. If you are interested, please navigate to the [Implementations page](/implementations/implementation-links.md) for information on the localizations and links to localized apps.
