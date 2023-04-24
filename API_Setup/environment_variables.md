@@ -1,3 +1,4 @@
+
 # Environment Variables
 
 Now you've set up everything from your docker to the Google Programmable Search Engine you should have all the invormation to set up the required environment file for the API.
