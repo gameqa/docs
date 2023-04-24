@@ -1,15 +1,15 @@
 <!-- docs/_sidebar.md -->
 
-* Home
+* Home 
     * [GameQA](/)
     * [Localization](/localization.md)
 
-* Translating the Codebase
+* Translating the Codebase 
     * [Clone Repository](/Localize/clone_repo.md)
     * [Translate](/Localize/translate.md)
     * [Oreos](/Localize/oreos.md)
 
-* Deploying the API
+* Deploying the API 
     * [Introduction](/API_Setup/introduction.md)
     * [Creating a Database](/API_Setup/create_database.md)
     * [Installing REDIS](/API_Setup/install_redis.md)
@@ -20,7 +20,7 @@
     * [Running the API](/API_Setup/run_api.md)
     * [Deployment](/API_Setup/deploy.md)
 
-* Deploying the APP
+* Deploying the APP 
     * [Introduction](/APP_Setup/introduction.md)
     * [Getting Xcode](/APP_Setup/get_xcode.md)
     * [Getting Android Studio](/APP_Setup/get_android_studio.md)
