@@ -35,7 +35,7 @@ The localization process for GameQA is designed to be straightforward and effici
 
 ![]()
 
-<p style="text-align: center;"><a href="/localization.md">Get started here</a></p>
+<h4><p style="text-align: center;"><a href="/localization.md">Get started here</a></p></h4>
 
 <hr>
 
@@ -72,4 +72,4 @@ Our comprehensive tutorials and thorough documentation make the entire GameQA ex
         $ sh localize.sh
 ```
 
-<p style="text-align: center;"><a href="/localization.md">Get started here</a></p>
+<h4><p style="text-align: center;"><a href="/localization.md">Get started here</a></p></h4>
