@@ -5,29 +5,29 @@
     * [Localization](/localization.md)
 
 * Translating the Codebase 
-    * [Clone Repository](/Localize/clone_repo.md)
-    * [Translate](/Localize/translate.md)
-    * [Oreos](/Localize/oreos.md)
+    * [Clone Repository](/localize/clone_repo.md)
+    * [Translate](/localize/translate.md)
+    * [Oreos](/localize/oreos.md)
 
 * Deploying the API 
-    * [Introduction](/API_Setup/introduction.md)
-    * [Creating a Database](/API_Setup/create_database.md)
-    * [Installing REDIS](/API_Setup/install_redis.md)
-    * [Setting up SendGrid](/API_Setup/setup_sendgrid.md)
-    * [Google Search Engine](/API_Setup/google_search_engine.md)
-    * [Adding sources](/API_Setup/add_sources.md)
-    * [Environment variables](/API_Setup/environment_variables.md)
-    * [Running the API](/API_Setup/run_api.md)
-    * [Deployment](/API_Setup/deploy.md)
+    * [Introduction](/api-setup/introduction.md)
+    * [Creating a Database](/api-setup/create_database.md)
+    * [Installing REDIS](/api-setup/install_redis.md)
+    * [Setting up SendGrid](/api-setup/setup_sendgrid.md)
+    * [Google Search Engine](/api-setup/google_search_engine.md)
+    * [Adding sources](/api-setup/add_sources.md)
+    * [Environment variables](/api-setup/environment_variables.md)
+    * [Running the API](/api-setup/run_api.md)
+    * [Deployment](/api-setup/deploy.md)
 
 * Deploying the APP 
-    * [Introduction](/APP_Setup/introduction.md)
-    * [Getting Xcode](/APP_Setup/get_xcode.md)
-    * [Getting Android Studio](/APP_Setup/get_android_studio.md)
-    * [Connecting to API](/APP_Setup/connect_to_api.md)
-    * [Running locally](/APP_Setup/run_local.md)
-    * [Beta Testing (testflight)](/APP_Setup/beta_testing.md)
-    * [Release to App Store](/APP_Setup/release_to_app_store.md)
+    * [Introduction](/app-setup/introduction.md)
+    * [Getting Xcode](/app-setup/get_xcode.md)
+    * [Getting Android Studio](/app-setup/get_android_studio.md)
+    * [Connecting to API](/app-setup/connect_to_api.md)
+    * [Running locally](/app-setup/run_local.md)
+    * [Beta Testing (testflight)](/app-setup/beta_testing.md)
+    * [Release to App Store](/app-setup/release_to_app_store.md)
 
 * Implementations
     * [Localized **GameQA** Apps](/implementations/implementation-links.md)
