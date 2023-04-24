@@ -6,19 +6,14 @@
 <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-5">
-                <p style="text-align: center;">
-                <a href="https://www.google.com">GameQA Paper</a>
+            <div class="col-md-6">
+                <p style="text-align: center; color:#fff">
+                <a href="https://www.google.com" style="text-decoration: none" class="white-button">GameQA Paper</a>
             </p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6">
                 <p style="text-align: center;">
-                    |
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p style="text-align: center;">
-                    <a href="https://www.google.com">Download Dataset</a>
+                    <a href="https://www.google.com" style="text-decoration: none" class="green-button">Download Dataset</a>
                 </p>
             </div>
         </div>
@@ -40,7 +35,16 @@ The localization process for GameQA is designed to be straightforward and effici
 
 ![]()
 
-<h4><p style="text-align: center;"><a href="/localization.md">Get started here</a></p></h4>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                        <p style="text-align: center;">
+                        <a href="/localization.md" style="text-decoration: none" class="green-button">Get started here</a></p>
+                    </p>
+        </div>
+    </div>
+</div>
+<!-- <h4><p style="text-align: center;" class="green-button"><a href="/localization.md">Get started here</a></p></h4> -->
 
 <hr>
 
@@ -77,7 +81,15 @@ Our comprehensive tutorials and thorough documentation make the entire GameQA ex
         $ sh localize.sh
 ```
 
-<h4><p style="text-align: center;"><a href="/localization.md">Get started here</a></p></h4>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                        <p style="text-align: center;">
+                        <a href="/localization.md" style="text-decoration: none" class="green-button">Get started here</a></p>
+                    </p>
+        </div>
+    </div>
+</div>
 
 <hr>
 

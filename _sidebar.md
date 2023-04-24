@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * Home 
-    * [GameQA](/)
+    * [GameQA](/#GameQA)
     * [Localization](/localization.md)
 
 * Translating the Codebase 
