@@ -11,6 +11,6 @@ In order to get started, you will need to install all the required packages and 
 **Note:** If you do not have [Node.js](https://nodejs.org/) installed you need to [install](https://nodejs.org/en/download) it first.
 
 ```
-cd Localized_App/api
-npm install
+$ cd Localized_App/api
+$ npm install
 ```
