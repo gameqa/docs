@@ -18,7 +18,7 @@ const main = async () => {
     console.log('Sitemap entries:');
     console.log(links);
     
-    const stream = new SitemapStream({ hostname: "https://www.gameqa.app" });
+    const stream = new SitemapStream({ hostname: "https://gameqa.app" });
     const content = (
         await streamToPromise(Readable.from(links).pipe(stream))
     ).toString('utf-8');
