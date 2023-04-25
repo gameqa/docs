@@ -37,3 +37,5 @@ This script will first test your *repl* files for completion and correctness. On
 Upon successful completion (no failure messages) you should see a new directory ```GameQA/Localized_App``` containing the localized code for both ```app``` and ```api```.
 
 You are now ready to deploy the API and the app. **We recommend that you start with [Setting Up the API](../api-setup/introduction.md) since the App depends on it!**
+
+<!--  -->

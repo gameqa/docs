@@ -8,3 +8,5 @@ $ git clone 'https://github.com/cadia-lvl/GameQA.git'
 ```
 
 Once you're done, change directory as ```$ cd GameQA``` for the following steps.
+
+<!--  -->
