@@ -28,7 +28,3 @@
     * [Running locally](/app-setup/run_local.md)
     * [Beta Testing (testflight)](/app-setup/beta_testing.md)
     * [Release to App Store](/app-setup/release_to_app_store.md)
-
-* Implementations
-    * [Localized **GameQA** Apps](/implementations/implementation-links.md)
-
