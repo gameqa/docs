@@ -13,7 +13,7 @@
      alt="Chevron Down Arrow"
      class="center"/> -->
 
-[GitHub](https://github.com/cadia-lvl/GameQA)
+[GitHub](https://github.com/gameqa)
 [Get Started](#GameQA-Localization)
 
 <!-- <div style="height:30px; width:100%; display:flex; justify-content:center; box-sizing:content-box; padding:40px 0">
