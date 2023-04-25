@@ -93,6 +93,6 @@ Our comprehensive tutorials and thorough documentation make the entire GameQA ex
 
 <hr>
 
-## Implementations
+## Reach Out
 
-We try to maintain an up-to-date list of **GameQA** implementations across languages on this website as well. If you are interested, please navigate to the [Implementations page](/implementations/implementation-links.md) for information on the localizations and links to localized apps.
+We would love to get in touch with you and help you build a QA dataset in your own language. You can send us an email 📧 at [```app@gameqa.app```](mailto:app@gameqa.app) or find us on twitter 🐦 [@atabuzar](https://www.twitter.com/atabuzar) and [@neilskarp](https://www.twitter.com/neilskarp).
