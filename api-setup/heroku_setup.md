@@ -25,7 +25,7 @@ Now, click Github in the "Deployment Method" section. This will prompt you to co
 
 Next, head down on this page and enable Automatic Deploys. If successful you should be prompted with a message telling you that automatic deployments are now enabled.
 
-** Note **: If you need to, in the future, manually deploy or restart the server then there is a "Manual deploy" section on the same page which restarts the server based on the head on your git repos main branch on Github.
+**Note:** If you need to, in the future, manually deploy or restart the server then there is a "Manual deploy" section on the same page which restarts the server based on the head on your git repos main branch on Github.
 
 ## Next Steps
 
