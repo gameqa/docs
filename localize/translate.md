@@ -20,7 +20,9 @@ The first step to translate all text in the GameQA repo is to translate every si
 2. [repl_emoji](https://docs.google.com/spreadsheets/d/1V7f5iybm8Hm1USlOWyWG2OwiWNNpXRS--saMEdEgL4I/edit?usp=sharing#gid=1314614428)
 3. [repl_values](https://docs.google.com/spreadsheets/d/1V7f5iybm8Hm1USlOWyWG2OwiWNNpXRS--saMEdEgL4I/edit?usp=sharing#gid=1808038902)
 
-Translating the text is mostly as straightforward as just writing the translated value into the translation column. However, there are three things you need to keep in mind while doing so. Failure to do so will result in the translation script failing. First, if you need to use double quotes ("") inside the translation column, always use single quotes. Second, there are format strings that look something like this in the code base `Password must be at least ${MIN_PW_LENGTH}`. When you see a format string (you identify them by the `${...}`) you must include the variable (the dollar sign, brackets, and variable name) in the translation as well. Third, make sure to fill out all the cells. 
+Translating the text is mostly as straightforward as just writing the translated value into the translation column. However, there are three things you need to keep in mind while doing so. Failure to do so will result in the translation script failing. First, do not use double quotes ("") inside the translation column, always use single quotes. Second, there are format strings that look something like this in the code base `Password must be at least ${MIN_PW_LENGTH}`. When you see a format string (you identify them by the `${...}`) you must include the variable (the dollar sign, brackets, and variable name) in the translation as well. Third, make sure to fill out all the cells. 
+
+If you don't follow these instructions (that is if you use any double quotes, don't do the format strings, and if you don't translate all cells) the translation script will fail and give you an error.
 
 Once finished, you can download each of your copies as separate ```.csv``` files and replacing the ones present in ```GameQA/repl/``` correspondingly.
 
