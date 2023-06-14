@@ -12,6 +12,7 @@
 * Deploying the API 
     * [Introduction](/api-setup/introduction.md)
     * [Creating a Database](/api-setup/create_database.md)
+    * [Heroku Setup](/api-setup/heroku_setup.md)
     * [Installing REDIS](/api-setup/install_redis.md)
     * [Setting up SendGrid](/api-setup/setup_sendgrid.md)
     * [Google Search Engine](/api-setup/google_search_engine.md)
