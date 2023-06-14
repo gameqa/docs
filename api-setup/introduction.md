@@ -14,3 +14,5 @@ In order to get started, you will need to install all the required packages and 
 $ cd Localized_App/api
 $ npm install
 ```
+
+**Note:** Lastly, the API section depends on a few different 3rd party tools and services. They have user interfaces which are relatively easy to navigate. However, if you notice any changes to these interfaces, feel free to submit a pull request for the [Docs](https://github.com/gameqa/docs) repo (the one you're reading right now!) to help other researchers and developers.
