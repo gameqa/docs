@@ -15,4 +15,4 @@ $ cd Localized_App/api
 $ npm install
 ```
 
-**Note:** Lastly, the API section depends on a few different 3rd party tools and services. They have user interfaces which are relatively easy to navigate. However, if you notice any changes to these interfaces, feel free to submit a pull request for the [Docs](https://github.com/gameqa/docs) repo (the one you're reading right now!) to help other researchers and developers.
+**Note:** Lastly, the API section depends on a few different 3rd party tools and services. These tools and services have user interfaces that might change over time. However, they have user interfaces which are relatively easy to navigate. So if you notice any changes to these interfaces, feel free to submit a pull request for the [Docs](https://github.com/gameqa/docs) repo (the one you're reading right now!) to help researchers and developers in the future.
