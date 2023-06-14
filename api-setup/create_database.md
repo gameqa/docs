@@ -19,10 +19,34 @@ There are three options to choose from for your MongoDB setup: serverless, detic
 
 In order to be able to connect your database to your localized API, you need to create a username and a password within Atlas. These credentials will be a part of the connection string provided to the API. Under `Security > Database Access`. click the "Add New Database User" button. 
 
-In the form, choose "Password" as the authentication method and choose a username and password. Under the "Database User Privileges" section, select a "Built-in Role" and give the user access to "Read & Write to ay database". Below, you can restrict the access to the cluster (Database) you just created
+In the form, choose "Password" as the authentication method and choose a username and password. Under the "Database User Privileges" section, select a "Built-in Role" and give the user access to "Read & Write to ay database". Below, you can restrict the access to the cluster (Database) you just created.
+
+![](../_media/db_createuser.png)
+
+## Network Access
+
+Lastly, you will need to specify access lists to tell Atlas which IP addresses your DB should respond to. In this tutorial, we will be using Heroku which does not allocate a static IP address for your server. However, if you are comfortable with deployment and whish to use other services (like AWS, Google Cloud, Azure, etc.) you can configure the back-end to use a static IP.
+
+Since we like keeping things simple and efficient and thus be using Heroku, we will hence need to grant access to all IP addresses. Or that is, all users who have the username and password to authenticate. Navigate to `Security > Network access` in the side navigation. There you'll see a table with entries, one per IP or IP range:
+
+![](../_media/db_ip_table.png)
+
+Click "Add IP Address" in the top right corner and whitelist all IPs with the following entry
+
+![](../_media/db_ip_entry.png)
 
 ## Connecting to the API
-🚧 🏗 🔨👷 We're still working on this!
 
-## Testing Connection
-🚧 🏗 🔨👷 We're still working on this!
+In order to connect your localized API to the database, open up (or create if it doesn't exist already) an .env file. Add these lines to it
+
+```
+# local mongo instance
+MONGODB_URI_LOCAL= ...
+
+# production mongo instance
+MONGODB_URI= ...
+```
+
+Assign both environment (for now) as `mongodb+srv://<username>:<password>@<clustersubdomains>.mongodb.net/?retryWrites=true&w=majority` where the username, password, and clustersubdomains represent the connection information found on atlas. In the `Database Deployment` page you should see a "Connect" button next to each database. Clicking that button will give you a model interface where you will pick "Driver" and then "Node.js". The connection string should be visible in this view. See screen grab for reference. 
+
+![asdf](../_media/db_url.png)
