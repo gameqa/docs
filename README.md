@@ -8,12 +8,12 @@
         <div class="row">
             <div class="col-md-6">
                 <p style="text-align: center; color:#fff">
-                <a href="https://www.google.com" style="text-decoration: none" class="white-button">GameQA Paper</a>
+                <a href="https://aclanthology.org/2023.eacl-demo.18/" style="text-decoration: none" class="white-button">GameQA Paper</a>
             </p>
             </div>
             <div class="col-md-6">
                 <p style="text-align: center;">
-                    <a href="https://www.google.com" style="text-decoration: none" class="green-button">Download Dataset</a>
+                    <a href="https://repository.clarin.is/repository/xmlui/handle/20.500.12537/310" style="text-decoration: none" class="green-button">Download Dataset</a>
                 </p>
             </div>
         </div>
