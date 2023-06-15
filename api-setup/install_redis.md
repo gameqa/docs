@@ -5,12 +5,10 @@ Redis is an open source in-memory key-value store which sidesteps the need for s
 ## Installing Docker
 The best way to run Redis locally is to use Docker to do so. If you do not already have Docker installed, here are installation instructions.
 
-* **Mac OS:** `https://docs.docker.com/desktop/install/windows-install/`
-* **Mac OS:** `https://docs.docker.com/desktop/install/windows-install/`
-* **Mac OS:** `https://docs.docker.com/desktop/install/windows-install/`
+* **Mac OS:** [Installation Instructions](https://docs.docker.com/desktop/install/mac-install/)
+* **Windows:** [Installation Instructions](`https://docs.docker.com/desktop/install/windows-install/)
+* **Linux:** [Installation Instructions](`https://docs.docker.com/desktop/install/linux-install/)
 
-### Linux
-`https://docs.docker.com/desktop/install/linux-install/`
 
 ## Running Redis Daemon
 Once you've installed Docker you can use it to run Redis via the commandline. Make sure first, that you have docker running. Run the following shell command
