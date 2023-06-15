@@ -23,7 +23,35 @@ If successful, you will see a list of messages printed out in the console with t
 
 ### Locally
 
+In the .env file you have in the root of the folder add the following information
+
+```
+# redis URL
+REDIS_URL=redis://127.0.0.1:6379
+```
+
+This tells the server to connect to Redis listening on port `6379` on your local machine.
+
+
 ### On Heroku
 
-## Testing connection
- 🚧 🏗 🔨👷 We're still working on this!
+When you're running the API on Heroku, you will need to have a Redis compute deployed as well. Luckily for us, Heroku has a free tier version of Redis we can use.
+
+First, on your projects dashboard on Heroku, navigate to the Resources tab. There you will see a section called `Add-ons`. In the search bar type "redis" and select "Redis Enterprise Cloud". 
+
+![](../_media/redis_deployment.png)
+
+This will open up a modal. Select the default free edition.
+
+
+![](../_media/redis_modal.png)
+
+Now, head on to the "Settings" tab in your Heroku project. On this page there is a `Config Vars` section. The config variables are inherently the environment variables Heroku shares with your server in production. Click the button to reveal the config variables. You should see a variable added by the Redis add-on.
+
+
+![](../_media/redis_config.png)
+
+Notice that the name of the config variable is different to what we used in our local, .env file. To resolve this, copy the URL that was automatically added to your config variables. Create a new config variable called `REDIS_URL` and assign it to the URL you just copied. Once you're done you can remove the automatically generated config variable.
+
+
+![](../_media/redis_config_fixed.png)
