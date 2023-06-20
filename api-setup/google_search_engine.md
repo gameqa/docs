@@ -45,7 +45,7 @@ From there, click "CREATE CREDENTIALS" which will show you a drop-down. From thi
 Once you've created the API key, copy it and store it in a safe location.
 
 
-![](../_media/redis_modal.png)
+![](../_media/gcc_api_key_modal.png.png)
 
 Before we continue, you should click on the API key you just created on the credentials page. This should bring up a screen where you can restrict the access of this API key to the Custom Search API. This is useful if the key is lost or stolen then it can't be misused for other APIs by a malicious user.
 
