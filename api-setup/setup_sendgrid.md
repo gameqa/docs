@@ -23,11 +23,49 @@ Once you're on the page for dynamic email templates you can click "Create a Dyna
 
 In the creation form, give the template a memorable name that describes the template like so:
 
-![](../_media/sg_create_dynamic_template.png.png)
+![](../_media/sg_create_dynamic_template.png)
 
 Once you've created the template you'll see that it currently has no versions. Click "Add Version"
 
 ![](../_media/sg_created_template_no_version.png)
+
+When prompted with the choice, select "Blank Template".
+
+![](../_media/sg_create_version_1.png)
+
+Then proceed to the "Code Editor"
+
+![](../_media/sg_create_version_2.png)
+
+Once you're in the code editor you will see two tabs in the top left corner. One that says "code" and another one that says "test data". The code tab should have some default HTML code. Add the following HTML line into the editor
+
+```html
+<p>{{verificationCode}}</p>
+```
+
+The result should look something like this:
+
+![](../_media/sg_verification_code_editor.png)
+
+Now, in the "test data" tab add this JSON:
+
+```json
+{
+    "verificationCode": "123456"
+}
+```
+
+The outcomee should look something like this.
+
+![](../_media/sg_verification_dynamic_data.png)
+
+If you can see the HTML preview on the right side update with the number you typed in "test data" then this template is ready
+
+**IMPORTANT:** Hit "Save" to save your progress.
+
+**NOTE:** you can style this with HTML and CSS
+
+Lastly, create another template for resetting your password by following the same steps **except** the string injected into the template is called `resetPasswordCode` instead of `verificationCode`. Make sure to set up the HTML and test data accordingly.
 
 
 ## Sender Authentication
