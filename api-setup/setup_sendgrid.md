@@ -5,32 +5,24 @@ is an email service that sends signup and other standardized emails from GameQA.
 to work there needs to be a certain level of integration and setup. However, we've taken care of most of the integration
 so you will only need to add what is absolutely necessary.
 
-Sendgrid is a paid service, however, the volume of emails sent out by the system is so low that it will likely
-qualify for a free tier.
+Sendgrid is a paid service, however, the volume of emails sent out by the system is so low that it will likely qualify for a free tier throughout the data collection
 
 ## Creating an account
-🚧 🏗 🔨👷 We're still working on this!
+Start by creating an account on [Sendgrid](https://app.sendgrid.com).
 
-## Register Template
-🚧 🏗 🔨👷 We're still working on this!
+## Creating Templates
+Sendgrid allows you to create what they call "dynamic templates". With these dynamic templates you can send standardized emails to users with dynamic data (such as  verification codes) sent from our API. You will need to create two such templates. One for verification codes on sign-up and one for users when they reset their passwords. The logic to send these emails is already embedded into the API, now we just need to create (or register) templates in your [Sendgrid Portal](https://app.sendgrid.com) that display these codes. 
 
-## Reset Password Template
-🚧 🏗 🔨👷 We're still working on this!
+Start by navigating to the sidebar to find the dynamic email template page. 
 
-## Connect to Domain
-🚧 🏗 🔨👷 We're still working on this!
+![](../_media/sg_menu_dynamic_demplates.png)
 
-## Get API key
-🚧 🏗 🔨👷 We're still working on this!
+## Sender Authentication
 
-## Connecting to App
-🚧 🏗 🔨👷 We're still working on this!
+## Api Keys
 
-## Testing connection
-🚧 🏗 🔨👷 We're still working on this!
+## Updating Environment Variables
 
-## Optional: Template 3 <!-- {docsify-ignore} --> 
-🚧 🏗 🔨👷 We're still working on this!
+## Updating API Codebase
 
-## Optional: Template 4 <!-- {docsify-ignore} --> 
-🚧 🏗 🔨👷 We're still working on this!
+## Testing Sendgrid Integration
