@@ -56,27 +56,21 @@ Before we continue, you should click on the API key you just created on the cred
 Now that you've enabled the API and created an API key, we are finally ready to create our own programmable search enginew with Google that allows us to leverage Google's proprietary search functionality and extend it by filtering only domains relevant to our use case. Head on to the [Programmable Search Engine Console](https://programmablesearchengine.google.com/) to get started.
 
 
-![](../_media/)
+![](../_media/gcc_no_search_engines.png)
 
 Click "Add" to add your own. You can have multiple search engine with different setups, filters and so on. Fill out the form like this. Start by putting "en.wikipedia.org" as a specific page to query. You can change this later by removing it, adding other pages, and even express patterns to search for. However, for now let us use the english wikipedia as we will use it as a running example later on in the tutorial.
 
 
-![](../_media/)
+![](../_media/gcc_search_engine_form.png)
 
 Now, you have succesfully created your own programmable search engine. You will be given a code example of how you can render the search engine in HTML
 
-
-![](../_media/)
-
-At the end of this tutorial we will see how we can query our search engine using HTTP. This will enable us to use the search engine with our own custom styling / UI.
-
-
-![](../_media/)
+![](../_media/gcc_se_created.png)
 
 Lastly, click "Customize" in order to open up a view where you can change the settings and setup for the search engine. We will delve into this view later, but for now notice the "Search Engine ID".
 
 
-![](../_media/)
+![](../_media/gcc_se_overview.png)
 
 This ID, along with your API Key from above will be the two necessary pieces of information to call the Google Search API in your back-end code. We will revisit this page later once we create new answer sources which will be the baseline for how you add new answer sources to your crowdsourcing efforts.
 
