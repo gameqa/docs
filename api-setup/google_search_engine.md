@@ -16,7 +16,7 @@ Google Cloud has a lot of great tools and services available through its cloud p
 
 Click the button that says "ENABLE APIS AND SERVICES"
 
-![](../_media/gcc_enabled_apis_view.png.png)
+![](../_media/gcc_enabled_apis_view.png)
 
 This will bring up a search field where you can type in "Custom Searh API". Open up the search result
 
