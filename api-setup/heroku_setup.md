@@ -6,7 +6,7 @@ In this tutorial, we will use [Heroku](https://www.heroku.com) to host and deplo
 
 Once you have created an account with Heroku, you can create "a new app" as shown in the screen grab below. 
 
-![asdf](../_media/heroku_list.png)
+![](../_media/heroku_list.png)
 
 Now, give it a descriptive name (such as `gameqa-<your iso language code>`) and press "Create app".
 
@@ -15,13 +15,13 @@ Now, give it a descriptive name (such as `gameqa-<your iso language code>`) and 
 
 The first screen you should see after creating your Heroku project should be something like this:
 
-![asdf](../_media/heroku_pick_pipeline.png)
+![](../_media/heroku_pick_pipeline.png)
 
 If you haven't already, create a new git repo for your localized api and push it to Github. We recommend that the repo should be owned by the `GameQA` organization as it might help future researchers build on top of your translations and work.
 
 Now, click Github in the "Deployment Method" section. This will prompt you to connect and authorize Github with Heroku and lastly choose the repo for the API. After you've succesfully connected Github to Heroku the UI will show you the following:
 
-![asdf](../_media/heroku_connected.png)
+![](../_media/heroku_connected.png)
 
 Next, head down on this page and enable Automatic Deploys. If successful you should be prompted with a message telling you that automatic deployments are now enabled.
 
