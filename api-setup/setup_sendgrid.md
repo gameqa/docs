@@ -110,8 +110,53 @@ Give the key full access.
 Once you're done creating the API key you will see it on your screen. Copy it and save it in a safe location. You will not be able to retrieve this key once you've navigated from this page. Keep the API key safe since anyone with the API key can send emails in your name.
 
 ![](../_media/sg_api_key_created.png)
+
 ## Updating Environment Variables
 
-## Updating API Codebase
+Now that you've completed the Sendgrid setup you can add the Sendgrid api key to your environment file in the API repo. Add this line along with the value (sendgrid API key)
+
+```
+# Sendgrid API key
+SENDGRID_KEY= ...
+```
+
+## Registering Templates in the API codebase
+
+The dynamic templates you created above generated template IDs which you can find in your Sendgrid portal. Now you need to navigate to `src/services/DynamicEmailTemplates/interface.ts` in the API code. There you will find two TypeScript interfaces called `SignupTemplateData` and `ResetPasswordTemplateData` respectively. They look something like this:
+
+```ts
+export interface SignupTemplateData {
+    templateId: "d-00000000000000000000000000000001";
+    data: {
+        foo: string;
+    };
+}
+
+export interface ResetPasswordTemplateData {
+    templateId: "d-00000000000000000000000000000002";
+    data: {
+        turtles: [
+            {name: "foo", age: 100},
+            {name: "bar", age: 102}
+        ],
+    }
+}
+
+```
+
+Now, you need to replace the `templateId` string in both with their respective dynamic template ID from Sendgrid.
+
+**NOTE:** the templateId needs to be the exact string identifying the template.
+
+## Export the Template ID
+
+Next, you need to `export` the template IDs along with the default sender from your domain. IMPORTANT: these strings must match the ones in the interface declerations. Also, change the `DEFAULT_SENDER` variable to the sender you want to show up in your users inbox. The email needs to come from a domain which you've registered with Sendgrid
+
+```ts
+export const DEFAULT_SENDER = "noreply@gameqa.app";
+export const REGISTER_USER_TEMPLATE = "d-00000000000000000000000000000001";
+export const RESET_PW_CODE_TEMPLATE = "d-00000000000000000000000000000002";
+```
 
 ## Testing Sendgrid Integration
+🚧 🏗 🔨👷 We're still working on this!
