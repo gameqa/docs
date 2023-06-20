@@ -96,6 +96,20 @@ Once everything is set up you can click this button to verify that the setup is 
 
 ## Api Keys
 
+In order to be able to invoke the Sendgrid API in our server / API we will need an API key from Sendgrid. Start off by navigating to the API Keys section under Settings in the left-side navigation bar.
+
+![](../_media/sg_menu_api_keys.png)
+
+Now, press "Create API Key".
+ 
+![](../_media/sg_api_keys_view.png)
+
+Give the key full access.
+![](../_media/sg_api_key_create_form.png)
+
+Once you're done creating the API key you will see it on your screen. Copy it and save it in a safe location. You will not be able to retrieve this key once you've navigated from this page. Keep the API key safe since anyone with the API key can send emails in your name.
+
+![](../_media/sg_api_key_created.png)
 ## Updating Environment Variables
 
 ## Updating API Codebase
