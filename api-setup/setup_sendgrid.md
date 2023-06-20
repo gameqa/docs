@@ -71,11 +71,27 @@ Lastly, create another template for resetting your password by following the sam
 
 In order to send emails via Sendgrid, you need to have control over a domain. This could either be a domain that you reserve for the data collection OR it could be your institutions (universities) domain. This is essentially the domain any emails will be sent from when using sendgrid.
 
+Start by selecting "Sender Authentication" from the left-side navigation bar.
+
 ![](../_media/sg_menu_sender_auth.png)
+
+Once you're there press "Activate your domain". You will see a series to step which are quite easy to follow. The only requirement here is that you have access to the DNS records for your domain or can send instructions to a systems administrator to do this for you.
+
 ![](../_media/sg_sender_auth_1.png)
+
+Next, choose your DNS provider.
+
 ![](../_media/sg_sender_auth_2.png)
+
+Fill out the name of your domain like so:
+
 ![](../_media/sg_sender_auth_3.png)
+
+Lastly, you will see a list of DNS records which you will need to add to your domain. Sendgrid offers you to do this automatically, manually, or forward this to a coworker (your domain administrator)
 ![](../_media/sg_sender_auth_4.png)
+
+Once everything is set up you can click this button to verify that the setup is correct. Once it passes all the tests you will be ready to start sending emails with this domain.
+
 ![](../_media/sg_sender_auth_5.png)
 
 ## Api Keys
