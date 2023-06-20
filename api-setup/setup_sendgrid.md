@@ -45,7 +45,7 @@ Once you're in the code editor you will see two tabs in the top left corner. One
 
 The result should look something like this:
 
-![](../_media/sg_verification_code_editor.png)
+![](../_media/sg_verificationcode.png)
 
 Now, in the "test data" tab add this JSON:
 
