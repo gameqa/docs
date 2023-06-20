@@ -17,6 +17,19 @@ Start by navigating to the sidebar to find the dynamic email template page.
 
 ![](../_media/sg_menu_dynamic_demplates.png)
 
+Once you're on the page for dynamic email templates you can click "Create a Dynamic Template" in the top right corner.
+
+![](../_media/sg_dynamic_templates_view.png)
+
+In the creation form, give the template a memorable name that describes the template like so:
+
+![](../_media/sg_create_dynamic_template.png.png)
+
+Once you've created the template you'll see that it currently has no versions. Click "Add Version"
+
+![](../_media/sg_created_template_no_version.png)
+
+
 ## Sender Authentication
 
 ## Api Keys
