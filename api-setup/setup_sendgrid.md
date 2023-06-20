@@ -67,8 +67,16 @@ If you can see the HTML preview on the right side update with the number you typ
 
 Lastly, create another template for resetting your password by following the same steps **except** the string injected into the template is called `resetPasswordCode` instead of `verificationCode`. Make sure to set up the HTML and test data accordingly.
 
-
 ## Sender Authentication
+
+In order to send emails via Sendgrid, you need to have control over a domain. This could either be a domain that you reserve for the data collection OR it could be your institutions (universities) domain. This is essentially the domain any emails will be sent from when using sendgrid.
+
+![](../_media/sg_menu_sender_auth.png)
+![](../_media/sg_sender_auth_1.png)
+![](../_media/sg_sender_auth_2.png)
+![](../_media/sg_sender_auth_3.png)
+![](../_media/sg_sender_auth_4.png)
+![](../_media/sg_sender_auth_5.png)
 
 ## Api Keys
 
