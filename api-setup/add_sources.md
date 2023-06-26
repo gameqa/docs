@@ -16,10 +16,17 @@ There are two important concepts we need to understand before proceeding. It's t
 
 ## The code
 
+In the API, navigate to `src/models/ArticleSources/interface.ts`. Decide on a source string that looks like `__this__` and add it to `ArticleSourceIdentifier` like the pull request shows (see below image). Additionally, add the hostname to `ArticleHostnames`.
+
 ![](../_media/sources_interface.png)
+
+Next, navigate to `src/models/ArticleSources/utils.ts` and add a mapping from your hostname to identifier in the `mapHostToArticleSourceIdentifier` map. Lastly on this page, create a mapping from your identifier to a regex pattern in `mapArticleSourceIdentifierToArticleKeyRegex`. The regex pattern should match the *key* for each article. See the below screenshot on how we retrieve the key for the CMU articles.
+
 ![](../_media/sources_utils.png)
 
-## The dcraper
+These are all the declerations you need to do prior to creating a scraper.
+
+## The scraper
 
 ## Testing
 
