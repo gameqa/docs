@@ -3,14 +3,16 @@
 When we say sources, we are refering to the answer sources. That is, websites that contain information in which users can search to find answers.
 Each source has three components to it. First, it needs a scraper. Second, it needs programmatic definitions. And third, it needs to be recognized by the programmable search engine.
 
-For example, if a user wants to find out the birth day of Mahatma Gandhi on Wikipedia. Google will need to be told that [en.wikipedia.org](en.wikipedia.org) is a domain that should be included in search results. Second, the GameQA API will need to have a defined scraper which reads the text contents from a Wikipedia article. Lastly, to tie these two together,
-it needs to have a valid regex (Regular Expression) to map the domain to the correct scraper. This all sounds like a lot, but on this page you will see all the steps required to add sources to your app.
+For example, if a user wants to find out the birth day of Mahatma Gandhi on Wikipedia. The Programmable Search Engine will need to be told that [en.wikipedia.org](en.wikipedia.org) is a domain that should be included in search results. Second, the GameQA API will need to have a defined scraper which reads the text contents from a Wikipedia article and outputs a list of paragraphs. Lastly, to tie these two together, it needs to have a few artifacts in code that will tie it all together.
+
+This is likely the most involved section of the API setup, so we have created a pull request that you can find [https://github.com/gameqa/api-is/pull/42](here). We will refer to this pull request to show you how to connect the source. We will start with the programmatic definitions, then we will create a scraper, and lastly we will update the google search engine.
+
+## The source
+
+## The Code
+
+## The Scraper
+
+## Testing
 
 ## Updating the Search Engine
-🚧 🏗 🔨👷 We're still working on this!
-## Defining Sources
-🚧 🏗 🔨👷 We're still working on this!
-## Adding Scraper
-🚧 🏗 🔨👷 We're still working on this!
-## Testing
-🚧 🏗 🔨👷 We're still working on this!
