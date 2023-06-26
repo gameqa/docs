@@ -28,6 +28,51 @@ These are all the declerations you need to do prior to creating a scraper.
 
 ## The scraper
 
+Now you will need to create a scraper. This is a class with a specific interface that will tell the api how to scrape a website. Imagine that the scraper is given just the *key* for the article. The scraper will need to a) reconstruct the URL and b) use a HTML scraping package to retrieve the article text. Refer the scraper in the pull request (39 lines in `src/models/Articles/ScrapingService/CmuScraper/index.ts`). You will need to create a directory, e.g. `src/models/Articles/ScrapingService/MyNewScraper` and add an `index.ts` file with the scraper code.
+
+First off, reconstruct the URL in the `axios.get` method call.
+
+```ts
+public async scrapeArticle(): Promise<ScrapeData> {
+    const { data, headers } = await axios.get<string>(
+        `https://www.cmu.edu${this.sourceArticleKey}`
+    );
+    // ...
+}
+```
+
+Second, write logic using `Cheerio` to scrape the website. There are webtutorials on how to use `Cheerio`. We also recommend using ChatGPT to help with extracting the based on your website. Cheerio works by using `css` selectors.
+
+In our case we extracted the paragraphs and the title like so:
+
+```ts
+const $ = cheerio.load(data);
+const articleText = $("main p");
+
+this.paragraphs = [];
+articleText.each((index, element) => {
+    const paragraphText = $(element).text();
+    this.paragraphs.push(paragraphText);
+});
+
+this.title = $("h1 span").text()
+
+return {
+    extract: this.paragraphs[0],
+    title: this.title.trim(),
+    sourceArticleKey: this.sourceArticleKey,
+    paragraphs: this.paragraphs.map((para) => para.trim()),
+};
+```
+
+We recommend that you use the class definition in the pull request. The interface needs to be the same, however we recommend that you deviate as little as possible from the structure of the function as well. Now head to the `src/models/Articles/ScrapingService/ScrapingFactory/index.ts`. Add your scraper into the switch case by adding the a case with your identifier and under that case add the scraper like so:
+
+![](../_media/scraper_scrapercode.png)
+
+Lastly you need to add the identifier to a type union in `src/models/Articles/ScrapingService/ScrapingFactory/interface.ts` as in the pull request.
+
 ## Testing
+
+Once you've created the scraper you can test your scraper. 
 
 ## Updating the Search Engine
