@@ -16,6 +16,8 @@ There are two important concepts we need to understand before proceeding. It's t
 
 ## The code
 
+![](../_media/sources_interface.png)
+![](../_media/sources_utils.png)
 
 ## The dcraper
 
