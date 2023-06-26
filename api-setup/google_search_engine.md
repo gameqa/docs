@@ -53,7 +53,7 @@ Before we continue, you should click on the API key you just created on the cred
 
 ## Creating the search engine
 
-Now that you've enabled the API and created an API key, we are finally ready to create our own programmable search enginew with Google that allows us to leverage Google's proprietary search functionality and extend it by filtering only domains relevant to our use case. Head on to the [Programmable Search Engine Console](https://programmablesearchengine.google.com/) to get started.
+Now that you've enabled the API and created an API key, we are finally ready to create our own programmable search engine with Google that allows us to leverage Google's proprietary search functionality and extend it by filtering only domains relevant to our use case. Head on to the [Programmable Search Engine Console](https://programmablesearchengine.google.com/) to get started.
 
 
 ![](../_media/gcc_no_search_engines.png)
