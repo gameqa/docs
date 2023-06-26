@@ -73,6 +73,24 @@ Lastly you need to add the identifier to a type union in `src/models/Articles/Sc
 
 ## Testing
 
-Once you've created the scraper you can test your scraper. 
+Once you've created your scraper you can add a small file to test that it works. It is easiest to add a file called `src/models/Articles/ScrapingService/ScrapingFactory/testScraper.ts` (see example in pull request) that looks something like this:
 
-## Updating the Search Engine
+```ts
+import {ScraperFactory} from "./";
+
+const SCRAPER_IDENTIFIER = "__cmu__";
+const SCRAPER_KEY = "/news/stories/archives/2023/june/carnegie-mellon-alumna-wins-two-2023-tony-awardsr";
+
+const scraper = new ScraperFactory(SCRAPER_IDENTIFIER, SCRAPER_KEY);
+scraper.scrapeArticle().then(console.log).catch(console.log);
+```
+
+You can QA test the scraper by answering the following questions:
+
+* does the new scraper return an object?
+* does the object include a key called 'extract' which is a string that is an *extract* from the article?
+* does the object contain a key called 'title' which is the title of the article as a string?
+* does the object contain a key called 'title' which is the title of the article as a string?
+* does the object contain a key called 'sourceArticleKey' which has the same value as the article's key?
+* does the object contain a key called 'paragraphs' which is an array of strings, which contain all the paragraphs in the article?
+
