@@ -94,3 +94,18 @@ You can QA test the scraper by answering the following questions:
 * does the object contain a key called 'sourceArticleKey' which has the same value as the article's key?
 * does the object contain a key called 'paragraphs' which is an array of strings, which contain all the paragraphs in the article?
 
+## Updating the programmable search engine
+
+During runtime, it is the Google Search Engine that we created earlier that will trigger all this scraping and mapping logic that we just created.
+
+Go to your programmable search engine console and add a new site to search.
+
+![](../_media/scraper_add_site.png)
+
+You can be creative with the URL you add. You can even specify complex patterns. In our case, we just want the news so we will specify `www.cmu.edu/news/stories/archives/*`. This will make sure that Google will query the CMU domain but only the websites that have `/news/stories/archives/` in them. The asterisk means that as long as that matches, it doesn't care about what follows.
+
+![](../_media/scraper_add_pattern.png)
+
+## Last step: informing the database
+
+TODO
